@@ -94,7 +94,7 @@ GEM
     bootstrap (5.3.3)
       autoprefixer-rails (>= 9.1.0)
       popper_js (>= 2.11.8, < 3)
-    brakeman (6.2.2)
+    brakeman (7.0.0)
       racc
     builder (3.3.0)
     capybara (3.40.0)
@@ -144,9 +144,6 @@ GEM
     irb (1.14.1)
       rdoc (>= 4.0.0)
       reline (>= 0.4.2)
-    jbuilder (2.13.0)
-      actionview (>= 5.0.0)
-      activesupport (>= 5.0.0)
     json (2.8.1)
     language_server-protocol (3.17.0.3)
     logger (1.6.1)
@@ -345,7 +342,6 @@ DEPENDENCIES
   dotenv-rails
   font-awesome-sass (~> 6.1)
   importmap-rails
-  jbuilder
   pg (~> 1.1)
   puma (>= 5.0)
   rails (~> 7.2.2)
